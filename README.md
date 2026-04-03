@@ -1,67 +1,56 @@
-## Curso Didática Tech
-### Python para iniciantes
-Curso desenvolvido pelo canal Didática Tech, no qual são abordados os comandos básicos da linguagem python, bem como,  exercícios no decorrer das aulas.
-O escopo do curso se divide em 12 aulas, sendo:
+# Python Fundamentals & Machine Learning | Didática Tech
 
- - Introdução a Python.
- - Instalando Python 3 com Anaconda.
- - Primeiro código Python.
- - Operadores aritméticos.
- - Variáveis e tipos de dados.
- - Função input().
- - Formatação em Python.
- - Condições if, else, elif.
- - Loop for.
- - Loop while com a regra de parada break.
- - Módulos, pacotes e bibliotecas.
- - Funções em Python.
+This repository contains study notes, coding exercises, and a classification project developed through the Didática Tech learning paths. The content ranges from core Python logic to the implementation of supervised learning algorithms.
 
-> Na aula *Instalando Python 3 com Anaconda* não segui com a instalação uma vez que utilizei o Google Colab.
+---
 
-Para mais informações sobre o curso acesse a [página](https://didatica.tech/curso-de-python-online-para-iniciantes/).
+## 1. Python for Beginners
+**Core Programming Foundations**
 
-### Python para machine learning e análise de dados
-Curso desenvolvido pelo canal Didática Tech, no qual é possível manipular tabelas, arquivos, etc. para fins de análise de dados, também é possível criar visualizações gráficas e utilizar técnicas estatísticas para identificar padrões nas distribuições de dados.
-O escopo do curso se divide em 26  aulas, sendo:
+An introductory track covering the essential syntax and logic required for data development:
+* **Environment:** Python 3 (Development conducted via Google Colab).
+* **Data Handling:** Variables, data types, and input/output formatting.
+* **Control Flow:** Logic gates (if/else) and iteration loops (for/while).
+* **Code Structure:** Functions, modules, and library management.
 
- - Como estudar Python para machine learning.
- - Criando estruturas em Listas.
- - Transformando o type dos dados (float e int).
- - O que são tuplas.
- - Dicionários em Python.
- - Manipulando strings.
- - Função lambda (funções anônimas).
- - Função map().
- - List Comprehension.
- - O pacote Numpy.
- - Como abrir arquivos usando o Pandas.
- - Introdução ao Pandas.
- - Comandos úteis do Pandas.
- - Filtrando linhas e colunas no Pandas.
- - Manipulando linhas com o Pandas.
- - Manipulando colunas com o Pandas.
- - Como excluir colunas no Pandas.
- - Como criar histogramas.
- - O que é um boxplot e como calcular.
- - Criando boxplot usando Python.
- - Criando e visualizando gráficos em Python com o Matplotlib.
- - Como trabalhar com dados faltantes (missing NaN) em um dataset.
- - Como instalar a IDE Pycharm.
- - Seu primeiro código de Machine Learning com Python.
- - Classes, métodos, herança, polimorfismo, construtor.
- - Prevendo dados diariamente com Machine Learning.
+---
 
-Para mais informações sobre o curso acesse a [página](https://didatica.tech/curso-de-python-para-machine-learning-e-ciencia-de-dados-gratuito/).
+## 2. Python for Machine Learning & Data Analysis
+**Data Manipulation and Visualization**
 
+A technical track focused on the data ecosystem and exploratory analysis:
+* **Advanced Structures:** Tuples, Dictionaries, Lambda functions, and List Comprehension.
+* **Numerical Computing:** Array manipulation with NumPy.
+* **Data Wrangling:** Deep dive into Pandas (ETL, filtering, and missing data handling).
+* **Visualization:** Statistical plotting with Histograms, Boxplots, and Matplotlib.
+* **OOP Foundations:** Classes, methods, inheritance, and polymorphism.
 
-### Exercício machine learning
-Executar um algoritmo de machine learning para classificar vinhos entre tintos e brancos.
+---
 
-**Algoritmo utilizado:** ExtraTreesClassifier.
+## 3. Case Study: Wine Classification Model
+**Practical Application of Machine Learning**
 
-> Cria diversas árvores de decisão e através da combinação dos resultados de cada árvore encontra a resposta final.
+A supervised learning project designed to classify wines into Red or White categories based on chemical properties.
 
-[Base de dados](https://www.kaggle.com/datasets/dell4010/wine-dataset) utilizada para treinar modelo.
+* **Algorithm:** `ExtraTreesClassifier` (Ensemble learning method that combines multiple decision trees for robust final predictions).
+* **Dataset:** [Wine Quality Dataset - Kaggle](https://www.kaggle.com/datasets/dell4010/wine-dataset).
+* **Key Steps:** Data loading, preprocessing, model training, and performance evaluation.
+
+---
+
+## Tech Stack
+
+* **Language:** Python
+* **Data Libraries:** Pandas, NumPy
+* **Visualization:** Matplotlib
+* **Machine Learning:** Scikit-learn
+* **IDE:** Google Colab / PyCharm
+
+---
+
+**Course References:**
+* [Python for Beginners](https://didatica.tech/curso-de-python-online-para-iniciantes/)
+* [Python for ML & Data Science](https://didatica.tech/curso-de-python-para-machine-learning-e-ciencia-de-dados-gratuito/)
 
     
 
